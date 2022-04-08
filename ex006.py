@@ -1,0 +1,5 @@
+n1   = int(input('Digite aí ande!! '))
+dob  = int(n1*2)
+trip = int(n1*3)
+raiz = int(n1**(1/2))
+print('o numero {} tem: \no dobro {} \no triplo {} \ne a raiz {}'.format(n1,dob,trip,raiz))

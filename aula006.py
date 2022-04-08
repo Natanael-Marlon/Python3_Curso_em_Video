@@ -1,0 +1,6 @@
+primitivo = input('Digite qualquer troço')
+print(type(primitivo))
+print(primitivo.isnumeric())
+print(primitivo.isalnum())
+print(primitivo.isalpha())
+print(primitivo.istitle())

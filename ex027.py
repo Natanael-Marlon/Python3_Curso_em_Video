@@ -1,0 +1,5 @@
+nome = input('Diga seu nome infeliz ')
+lista_nome = nome.split()
+ult_nome   = len(lista_nome)
+print('o primeiro nome {}'.format(lista_nome[0]))
+print(' o ultimo nome e {}'.format(lista_nome[ult_nome-1]))

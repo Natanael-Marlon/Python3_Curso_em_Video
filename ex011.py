@@ -1,0 +1,5 @@
+alt   = float(input('Diga a altura'))
+larg  = float(input('Diga a largura'))
+area  = float(alt * larg)
+tinta = float(area/2)
+print('Com essa area {:.2f}m² você pinta{:.2f}m²'.format(area,tinta))
